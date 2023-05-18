@@ -11,7 +11,7 @@ const LoginPage:FC = () => {
     e.preventDefault()
     if(user){
       setUsername(user)
-      localStorage.setItem('accessToken', JSON.stringify('granted'))
+      localStorage.setItem('accessToken', JSON.stringify(user))
       navigate('/dashboard')
     }
   }
