@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard'
 import PrivateRoute from './components/PrivateRoute'
 import { UserContext } from './utils/context'
 import useStorage from './utils/useLocalStorage'
+import Character from './components/Character'
 
 const App: FC = () => {
   const [accessToken] = useStorage('accessToken')
@@ -17,6 +18,11 @@ const App: FC = () => {
       <Route path='/dashboard' element={
         <PrivateRoute>
           <Dashboard />
+        </PrivateRoute>
+      }/>
+      <Route path='/character/:id' element={
+        <PrivateRoute>
+          <Character />
         </PrivateRoute>
       }/>
     </Routes>
