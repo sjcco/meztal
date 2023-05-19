@@ -7,6 +7,10 @@ Create a React project to display data form an API.
 ![App Screenshot2](./src/assets/appscreenshot2.png)  
 ![App Screenshot3](./src/assets/appscreenshot3.png)  
 
+## Live Demo
+
+[liveDemo](https://sprightly-fudge-b86f1b.netlify.app/)
+
 
 ## Desciption 
 The project was made using vite with the typescript template, the reason 
