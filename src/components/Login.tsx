@@ -1,4 +1,4 @@
-import React, {FC, useContext, useRef, useState} from 'react'
+import React, {FC, useContext, useState} from 'react'
 import { useNavigate } from 'react-router-dom'
 import security from './../assets/security.png'
 import { UserContext } from '../utils/context'

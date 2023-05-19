@@ -16,7 +16,7 @@ const LoadingCard: FC = () => {
 }
 
 const Card: FC<cardProps> = (props) => {
-  const { id, name, image, origin, species } = props
+  const { name, image, origin, species } = props
   return (
     <div className={`w-11/12 m-0 bg-white shadow-xl rounded-lg shadow-gray-400/50 mb-5 mx-auto flex`}>
       <img src={image} alt={name} className="w-1/4 rounded-full m-4" />
