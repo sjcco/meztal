@@ -48,7 +48,7 @@ const Dashboard:FC = () => {
         <aside className='hidden lg:block w-96 bg-slate-300/25 shadow-xl shadow-gray-500 h-screen fixed left-0 top-0 flex z-0'>
           <img className='w-10/12 rounded-xl m-44 mx-auto' src={rickandmorty} alt="" />
         </aside>
-        <main className='mt-40 lg:ml-96 w-full h-full overflow-auto' onScroll={handleScroll} >
+        <main className='lg:ml-96 w-full h-full overflow-auto' onScroll={handleScroll} >
             {
               characters.map((character) => (
                 <Link to={`/character/${character.id}`}>
